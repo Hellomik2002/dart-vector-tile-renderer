@@ -111,10 +111,10 @@ packages:
     dependency: transitive
     description:
       name: protobuf
-      sha256: "01dd9bd0fa02548bf2ceee13545d4a0ec6046459d847b6b061d8a27237108a08"
+      sha256: "68645b24e0716782e58948f8467fd42a880f255096a821f9e7d0ec625b00c84d"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.0"
+    version: "3.1.0"
   sky_engine:
     dependency: transitive
     description: flutter
@@ -179,10 +179,11 @@ packages:
   vector_tile:
     dependency: transitive
     description:
-      name: vector_tile
-      sha256: "2ac77f6bbd7ddd97efe059207d67bb7eaf807ab98ad58d99fe41a22c230f44e1"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: e673b0a
+      resolved-ref: e673b0ab466d969c24dcf9422463fe5b43e55394
+      url: "https://github.com/Hellomik2002/dart-vector-tile.git"
+    source: git
     version: "1.0.0"
   vector_tile_renderer:
     dependency: "direct main"

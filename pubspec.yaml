@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  vector_tile: ^1.0.0
+  vector_tile:
+    git:
+      url: https://github.com/Hellomik2002/dart-vector-tile.git
+      ref: e673b0a
   fixnum: ^1.0.0
   collection: ^1.15.0
 
